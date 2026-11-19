@@ -1,0 +1,7 @@
+pillow>=10
+numpy>=1.23
+# zero-shot pre-labelling (src/data/autolabel.py)
+torch>=2.1
+transformers>=4.40
+# training / export (Phase 2+)
+ultralytics>=8.3

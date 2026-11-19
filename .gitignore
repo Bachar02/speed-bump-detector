@@ -1,0 +1,10 @@
+# data & artefacts (regenerate with the scripts in src/data)
+data/
+runs/
+*.pt
+*.onnx
+*.engine
+*.tflite
+__pycache__/
+.venv/
+.ipynb_checkpoints/

@@ -56,6 +56,8 @@ python src/data/build_yolo.py     # -> data/yolo/ + bumps.yaml
    `merge_labels.py` and `build_yolo.py`.
 
 ### Train the baseline
+On Google Colab (recommended): see [docs/COLAB_TRAINING.md](docs/COLAB_TRAINING.md) and `notebooks/train_colab.ipynb`.
+Locally, on a CUDA GPU:
 ```bash
 pip install -r requirements.txt
 yolo detect train model=yolo11n.pt data=data/yolo/bumps.yaml imgsz=640 epochs=150 batch=8 flipud=0
